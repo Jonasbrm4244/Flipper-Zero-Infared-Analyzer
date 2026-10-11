@@ -1,0 +1,12 @@
+App(
+    appid="infrared_analyzer",
+    name="IR Analyzer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="infrared_analyzer_app",
+    stack_size=4 * 1024,
+    fap_category="Infrared",
+    fap_icon="icon_10px.png",
+    fap_description="Infrared Signal Analyzer & Capture Tool",
+    fap_author="Jonas.brm",
+    fap_version="1.0",
+)
